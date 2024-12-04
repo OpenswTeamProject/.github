@@ -69,3 +69,40 @@
 - 시간대별 대여소 수요 예측 기능
 - 가까운 대여소 추천 기능
 - 서울시 공공 기관과의 연계 사업
+
+  ## 🛠️ 시스템 실행 방법
+
+### **1. 프론트엔드 설정 및 실행**
+1. **프론트엔드 클론**
+   ```bash
+   git clone https://github.com/OpenswTeamProject/frontend.git
+   ```
+2. **의존성 설치**
+   ```bash
+   cd <프론트엔드 디렉토리>
+   npm install
+   ```
+3. **개발 서버 실행**
+   ```bash
+   npm run dev
+   ```
+
+### **2. 백엔드 설정 및 실행**
+1. **백엔드 클론**
+   ```bash
+   git clone https://github.com/OpenswTeamProject/back-end.git
+   ```
+2. **미니큐브 실행**
+   - 로컬 Kubernetes 환경을 미니큐브로 설정 및 실행합니다.
+
+3. **배포 파일 적용**
+   ```bash
+   kubectl apply -f deployment.yaml
+   ```
+
+4. **서비스 접속**
+   - 브라우저에서 아래 주소를 입력합니다:
+     ```
+     http://localhost:5173
+     ```
+
