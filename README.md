@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f6054677-661c-409b-aa00-745a2c649991" style="width: 50%;">
+  <img src="https://github.com/user-attachments/assets/f6054677-661c-409b-aa00-745a2c649991" style="width: 10%;">
   <h3>날씨 데이터와 서울시 공공 자전거 데이터를 활용한 관리자용 웹사이트 제작</h3>
 </div>
 
